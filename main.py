@@ -15,9 +15,9 @@ TOKEN = os.environ.get('TOKEN', None)
 
 # For Local Deploy:
 """
-API_ID = ""
-API_HASH = ""
-TOKEN = ""
+API_ID = "27094161"
+API_HASH = "39477b23f5e6abea95fe0f92b7f00de0"
+TOKEN = "7008178074:AAHRxTvWF_HBlQ-FXzg5gnYhXzHpmLWEj5A"
 """
 
 bot = Client(
