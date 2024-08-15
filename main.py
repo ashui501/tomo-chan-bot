@@ -541,15 +541,3 @@ def pat(_, message):
       e = r.json()
       patme = e["results"][0]["url"]
       message.reply_video(patme, caption=random.choice(OWO).format(name))
-
-@bot.on_message(filters.command("hug"))
-def hug(_, message):
-    
-    if message.reply_to_message:
-       url = "https://nekos.best/api/v2/hug"
-       r = requests.get(url)
-       e = r.json()
-       hugme = e["results"][0]["url"]
-       
-       name1 = message.from_user.first_name
-       name2 = message.reply_to_message.
